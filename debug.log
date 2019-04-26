@@ -16,3 +16,766 @@
 2019-04-24 11:12:30,133 [DEBUG] shapely.geos: Library path: '/usr/lib/libc.dylib'
 2019-04-24 11:12:30,133 [DEBUG] shapely.geos: DLL: <CDLL '/usr/lib/libc.dylib', handle 10e2dce50 at 0x1a20a6bf60>
 2019-04-24 11:12:31,421 [DEBUG] matplotlib.pyplot: Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2019-04-24 11:40:55,418 [INFO] directory: enter list_files
+2019-04-24 11:40:55,419 [INFO] directory: exit list_files
+2019-04-24 11:40:55,421 [INFO] LiPD: lipd_read: record loaded: ./Data/MD982181.Khider.2014.lpd
+2019-04-24 11:40:55,422 [INFO] benchmarks: Benchmark - Function: readLipd , Time: 0.01 seconds
+2019-04-24 11:41:13,394 [INFO] benchmarks: Benchmark - Function: readLipd , Time: 0.0 seconds
+2019-04-24 11:41:25,691 [INFO] benchmarks: Benchmark - Function: readLipd , Time: 0.0 seconds
+2019-04-24 11:41:53,756 [INFO] directory: enter list_files
+2019-04-24 11:41:53,757 [INFO] directory: exit list_files
+2019-04-24 11:41:53,760 [INFO] directory: temp directory: /var/folders/xj/p7h9764x7cx0by8547l04rrr0000gn/T/tmpw9zyv0ee
+2019-04-24 11:41:53,761 [INFO] zips: enter unzip
+2019-04-24 11:41:53,907 [INFO] zips: exit unzip
+2019-04-24 11:41:54,497 [INFO] jsons: Read JSONLD successful: metadata.jsonld
+2019-04-24 11:41:54,498 [INFO] jsons: exit read_json_from_file
+2019-04-24 11:41:54,504 [INFO] jsons: enter idx_num_to_name
+2019-04-24 11:41:54,504 [INFO] jsons: enter import_data: paleo
+2019-04-24 11:41:54,504 [INFO] jsons: enter import_model
+2019-04-24 11:41:54,504 [ERROR] jsons: idx_col_by_name: string indices must be integers
+2019-04-24 11:41:54,505 [ERROR] jsons: idx_table_by_name: 'str' object does not support item assignment
+2019-04-24 11:41:54,505 [ERROR] jsons: idx_col_by_name: string indices must be integers
+2019-04-24 11:41:54,506 [ERROR] jsons: idx_table_by_name: 'str' object does not support item assignment
+2019-04-24 11:41:54,506 [ERROR] jsons: idx_col_by_name: string indices must be integers
+2019-04-24 11:41:54,506 [ERROR] jsons: idx_table_by_name: 'str' object does not support item assignment
+2019-04-24 11:41:54,507 [ERROR] jsons: idx_col_by_name: string indices must be integers
+2019-04-24 11:41:54,507 [ERROR] jsons: idx_table_by_name: 'str' object does not support item assignment
+2019-04-24 11:41:54,508 [INFO] jsons: exit import_model: paleo0model
+2019-04-24 11:41:54,508 [INFO] jsons: exit import_data: paleo
+2019-04-24 11:41:54,508 [INFO] jsons: enter import_data: chron
+2019-04-24 11:41:54,509 [INFO] jsons: idx_col_by_name: inner: string indices must be integers
+2019-04-24 11:41:54,509 [INFO] jsons: idx_col_by_name: inner: string indices must be integers
+2019-04-24 11:41:54,509 [INFO] jsons: idx_col_by_name: inner: string indices must be integers
+2019-04-24 11:41:54,510 [INFO] jsons: enter import_model
+2019-04-24 11:41:54,510 [INFO] jsons: exit import_model: chron0model
+2019-04-24 11:41:54,510 [INFO] jsons: exit import_data: chron
+2019-04-24 11:41:54,510 [INFO] jsons: exit idx_num_to_name
+2019-04-24 11:41:54,510 [INFO] misc: enter remove_empty_doi
+2019-04-24 11:41:54,511 [INFO] misc: exit remove_empty_doi
+2019-04-24 11:41:54,514 [INFO] csvs: enter read_csvs
+2019-04-24 11:41:54,514 [INFO] directory: enter list_files
+2019-04-24 11:41:54,514 [INFO] directory: exit list_files
+2019-04-24 11:41:54,514 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:54,515 [INFO] csvs: open file: MD982181.Khider.2014.chron1model1ensemble.csv
+2019-04-24 11:41:54,726 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:54,726 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:54,727 [INFO] csvs: open file: MD982181.Khider.2014.paleo1measurement1.csv
+2019-04-24 11:41:54,729 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:54,729 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:54,730 [INFO] csvs: open file: MD982181.Khider.2014.paleo1measurement2.csv
+2019-04-24 11:41:54,731 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:54,731 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:54,731 [INFO] csvs: open file: MD982181.Khider.2014.chron1model2summary.csv
+2019-04-24 11:41:54,732 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:54,733 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:54,733 [INFO] csvs: open file: MD982181.Khider.2014.paleo1measurement3.csv
+2019-04-24 11:41:54,737 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:54,737 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:54,737 [INFO] csvs: open file: MD982181.Khider.2014.chron1model2ensemble.csv
+2019-04-24 11:41:54,947 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:54,947 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:54,948 [INFO] csvs: open file: MD982181.Khider.2014.chron1model1summary.csv
+2019-04-24 11:41:54,949 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:54,949 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:54,949 [INFO] csvs: open file: MD982181.Khider.2014.chron1model3ensemble.csv
+2019-04-24 11:41:55,192 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:55,192 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:55,193 [INFO] csvs: open file: MD982181.Khider.2014.chron1measurement1.csv
+2019-04-24 11:41:55,194 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:55,194 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:55,194 [INFO] csvs: open file: MD982181.Khider.2014.chron1model3summary.csv
+2019-04-24 11:41:55,196 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:55,196 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:55,196 [INFO] csvs: open file: MD982181.Khider.2014.chron1measurement2.csv
+2019-04-24 11:41:55,196 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:55,197 [INFO] csvs: enter merge_csv_metadata
+2019-04-24 11:41:55,197 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:41:55,203 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:55,205 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:55,210 [INFO] inferred_data: get_inferred_data_table: Not calculating inferred data for variableName: notes
+2019-04-24 11:41:55,211 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:55,211 [INFO] csvs: enter merge_csv_model
+2019-04-24 11:41:55,211 [INFO] csvs: exit merge_csv_model
+2019-04-24 11:41:55,212 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:41:55,212 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:41:55,212 [INFO] inferred_data: get_inferred_data_table: Not calculating inferred data for variableName: species
+2019-04-24 11:41:55,213 [DEBUG] inferred_data: get_inferred_data_column: Exception: could not convert string to float: 'OS-36493'
+2019-04-24 11:41:55,213 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:55,214 [INFO] inferred_data: get_inferred_data_table: Not calculating inferred data for variableName: species
+2019-04-24 11:41:55,214 [DEBUG] inferred_data: get_inferred_data_column: Exception: could not convert string to float: 'OS-55868'
+2019-04-24 11:41:55,214 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:55,215 [INFO] csvs: enter merge_csv_model
+2019-04-24 11:41:55,217 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:55,312 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:55,402 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:55,512 [INFO] csvs: exit merge_csv_model
+2019-04-24 11:41:55,512 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:41:55,513 [INFO] csvs: exit merge_csv_metadata
+2019-04-24 11:41:55,513 [INFO] csvs: enter get_csv_from_metadata
+2019-04-24 11:41:56,096 [INFO] csvs: enter get_csv_from_section: MD982181.Khider.2014.paleo
+2019-04-24 11:41:56,097 [INFO] csvs: enter get_csv_from_model: MD982181.Khider.2014.paleo0model
+2019-04-24 11:41:56,097 [INFO] csvs: exit get_csv_from_section: MD982181.Khider.2014.paleo
+2019-04-24 11:41:56,097 [INFO] csvs: enter get_csv_from_section: MD982181.Khider.2014.chron
+2019-04-24 11:41:56,097 [INFO] csvs: enter get_csv_from_model: MD982181.Khider.2014.chron0model
+2019-04-24 11:41:56,098 [INFO] csvs: exit get_csv_from_section: MD982181.Khider.2014.chron
+2019-04-24 11:41:56,099 [INFO] csvs: exit get_csv_from_metadata
+2019-04-24 11:41:56,102 [INFO] LiPD: lipd_read: record loaded: /Users/deborahkhider/Documents/GitHub/CKIDS/Data/MD982181.Khider.2014.lpd
+2019-04-24 11:41:56,108 [INFO] directory: temp directory: /var/folders/xj/p7h9764x7cx0by8547l04rrr0000gn/T/tmpq77_rqsj
+2019-04-24 11:41:56,108 [INFO] zips: enter unzip
+2019-04-24 11:41:56,263 [INFO] zips: exit unzip
+2019-04-24 11:41:56,448 [INFO] jsons: Read JSONLD successful: metadata.jsonld
+2019-04-24 11:41:56,449 [INFO] jsons: exit read_json_from_file
+2019-04-24 11:41:56,450 [INFO] jsons: enter idx_num_to_name
+2019-04-24 11:41:56,451 [INFO] jsons: enter import_data: paleo
+2019-04-24 11:41:56,451 [INFO] jsons: exit import_data: paleo
+2019-04-24 11:41:56,451 [INFO] jsons: enter import_data: chron
+2019-04-24 11:41:56,451 [INFO] jsons: enter import_model
+2019-04-24 11:41:56,452 [INFO] jsons: exit import_model: chron0model
+2019-04-24 11:41:56,452 [INFO] jsons: exit import_data: chron
+2019-04-24 11:41:56,452 [INFO] jsons: exit idx_num_to_name
+2019-04-24 11:41:56,452 [INFO] misc: enter remove_empty_doi
+2019-04-24 11:41:56,453 [INFO] misc: exit remove_empty_doi
+2019-04-24 11:41:56,454 [INFO] csvs: enter read_csvs
+2019-04-24 11:41:56,454 [INFO] directory: enter list_files
+2019-04-24 11:41:56,454 [INFO] directory: exit list_files
+2019-04-24 11:41:56,455 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,455 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0summary0.csv
+2019-04-24 11:41:56,456 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:56,456 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,457 [INFO] csvs: open file: MD982176.Stott.2004.paleo0measurement0.csv
+2019-04-24 11:41:56,458 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:56,458 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,459 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution8.csv
+2019-04-24 11:41:56,546 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:56,547 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,547 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution9.csv
+2019-04-24 11:41:56,634 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:56,634 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,635 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution1.csv
+2019-04-24 11:41:56,723 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:56,724 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,724 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution0.csv
+2019-04-24 11:41:56,810 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:56,810 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,811 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution2.csv
+2019-04-24 11:41:56,897 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:56,897 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,898 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution3.csv
+2019-04-24 11:41:56,993 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:56,994 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:56,994 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution7.csv
+2019-04-24 11:41:57,083 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:57,083 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:57,084 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution6.csv
+2019-04-24 11:41:57,168 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:57,169 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:57,170 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution11.csv
+2019-04-24 11:41:57,260 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:57,261 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:57,262 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution4.csv
+2019-04-24 11:41:57,351 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:57,352 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:57,352 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0ensemble0.csv
+2019-04-24 11:41:57,505 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:57,505 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:57,505 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution5.csv
+2019-04-24 11:41:57,603 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:57,604 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:57,604 [INFO] csvs: open file: MD982176.Stott.2004.chron0measurement0.csv
+2019-04-24 11:41:57,604 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:57,604 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:57,605 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution10.csv
+2019-04-24 11:41:57,696 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:57,696 [INFO] csvs: enter merge_csv_metadata
+2019-04-24 11:41:57,696 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:41:57,700 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:41:57,700 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:41:57,700 [INFO] inferred_data: get_inferred_data_table: Not calculating inferred data for variableName: ams number
+2019-04-24 11:41:57,701 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:57,701 [INFO] csvs: enter merge_csv_model
+2019-04-24 11:41:57,703 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:57,812 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:57,847 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:57,881 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:57,916 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:57,951 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:57,986 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:58,022 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:58,058 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:58,093 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:58,129 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:58,162 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:58,195 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:58,195 [INFO] csvs: exit merge_csv_model
+2019-04-24 11:41:58,195 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:41:58,195 [INFO] csvs: exit merge_csv_metadata
+2019-04-24 11:41:58,196 [INFO] csvs: enter get_csv_from_metadata
+2019-04-24 11:41:58,990 [INFO] csvs: enter get_csv_from_section: MD982176.Stott.2004.paleo
+2019-04-24 11:41:58,990 [INFO] csvs: exit get_csv_from_section: MD982176.Stott.2004.paleo
+2019-04-24 11:41:58,991 [INFO] csvs: enter get_csv_from_section: MD982176.Stott.2004.chron
+2019-04-24 11:41:58,992 [INFO] csvs: enter get_csv_from_model: MD982176.Stott.2004.chron0model
+2019-04-24 11:41:58,992 [INFO] csvs: exit get_csv_from_section: MD982176.Stott.2004.chron
+2019-04-24 11:41:58,993 [INFO] csvs: exit get_csv_from_metadata
+2019-04-24 11:41:58,997 [INFO] LiPD: lipd_read: record loaded: /Users/deborahkhider/Documents/GitHub/CKIDS/Data/MD982176.Stott.2004.lpd
+2019-04-24 11:41:59,006 [INFO] directory: temp directory: /var/folders/xj/p7h9764x7cx0by8547l04rrr0000gn/T/tmpc6jkbji2
+2019-04-24 11:41:59,006 [INFO] zips: enter unzip
+2019-04-24 11:41:59,008 [INFO] zips: exit unzip
+2019-04-24 11:41:59,094 [INFO] jsons: Read JSONLD successful: MD98-2170.Stott.2004.jsonld
+2019-04-24 11:41:59,095 [INFO] jsons: exit read_json_from_file
+2019-04-24 11:41:59,096 [INFO] jsons: enter idx_num_to_name
+2019-04-24 11:41:59,096 [INFO] jsons: enter import_data: paleo
+2019-04-24 11:41:59,096 [INFO] jsons: exit import_data: paleo
+2019-04-24 11:41:59,097 [INFO] jsons: enter import_data: chron
+2019-04-24 11:41:59,097 [INFO] jsons: exit import_data: chron
+2019-04-24 11:41:59,097 [INFO] jsons: exit idx_num_to_name
+2019-04-24 11:41:59,097 [INFO] misc: enter remove_empty_doi
+2019-04-24 11:41:59,097 [INFO] misc: exit remove_empty_doi
+2019-04-24 11:41:59,098 [INFO] csvs: enter read_csvs
+2019-04-24 11:41:59,098 [INFO] directory: enter list_files
+2019-04-24 11:41:59,099 [INFO] directory: exit list_files
+2019-04-24 11:41:59,099 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:59,099 [INFO] csvs: open file: MD98-2170.Stott.2004.Paleo1.measurementTable1.csv
+2019-04-24 11:41:59,100 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:59,100 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:41:59,100 [INFO] csvs: open file: MD98-2170.Stott.2004.Chron1.measurementTable1.csv
+2019-04-24 11:41:59,100 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:41:59,101 [INFO] csvs: enter merge_csv_metadata
+2019-04-24 11:41:59,101 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:41:59,103 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:59,103 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:41:59,103 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:41:59,104 [INFO] inferred_data: get_inferred_data_table: Not calculating inferred data for variableName: labcode
+2019-04-24 11:41:59,104 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:41:59,105 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:41:59,105 [INFO] csvs: exit merge_csv_metadata
+2019-04-24 11:41:59,105 [INFO] csvs: enter get_csv_from_metadata
+2019-04-24 11:41:59,107 [INFO] csvs: enter get_csv_from_section: MD98-2170.Stott.2004.paleo
+2019-04-24 11:41:59,107 [INFO] csvs: exit get_csv_from_section: MD98-2170.Stott.2004.paleo
+2019-04-24 11:41:59,107 [INFO] csvs: enter get_csv_from_section: MD98-2170.Stott.2004.chron
+2019-04-24 11:41:59,107 [INFO] csvs: exit get_csv_from_section: MD98-2170.Stott.2004.chron
+2019-04-24 11:41:59,107 [INFO] csvs: exit get_csv_from_metadata
+2019-04-24 11:41:59,108 [INFO] LiPD: lipd_read: record loaded: /Users/deborahkhider/Documents/GitHub/CKIDS/Data/MD98-2170.Stott.2004.lpd
+2019-04-24 11:41:59,109 [INFO] benchmarks: Benchmark - Function: readLipd , Time: 5.33 seconds
+2019-04-24 11:42:37,896 [INFO] time_series: enter extract_main
+2019-04-24 11:42:37,896 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:42:37,897 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:42:37,897 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:42:37,897 [INFO] time_series: enter _extract_funding
+2019-04-24 11:42:37,897 [ERROR] time_series: extract: Exception: 'str' object has no attribute 'items'
+2019-04-24 11:42:37,898 [INFO] time_series: exit extract_main
+2019-04-24 11:42:38,711 [INFO] time_series: enter extract_main
+2019-04-24 11:42:38,711 [INFO] time_series: enter _extract_funding
+2019-04-24 11:42:38,712 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:42:38,712 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:42:38,713 [INFO] time_series: enter _extract_pub
+2019-04-24 11:42:38,713 [INFO] time_series: processing publication #: 0
+2019-04-24 11:42:38,713 [INFO] time_series: enter extract_authors
+2019-04-24 11:42:38,713 [INFO] time_series: enter extract_pc
+2019-04-24 11:42:38,714 [INFO] time_series: enter extract_table_root
+2019-04-24 11:42:38,714 [INFO] time_series: enter extract_special
+2019-04-24 11:42:38,714 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,715 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,715 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,716 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,716 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,717 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,717 [INFO] time_series: exit extract_main
+2019-04-24 11:42:38,725 [INFO] time_series: enter extract_main
+2019-04-24 11:42:38,725 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:42:38,725 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:42:38,725 [INFO] time_series: enter _extract_pub
+2019-04-24 11:42:38,726 [INFO] time_series: processing publication #: 0
+2019-04-24 11:42:38,726 [INFO] time_series: enter extract_authors
+2019-04-24 11:42:38,726 [INFO] time_series: enter extract_pc
+2019-04-24 11:42:38,726 [INFO] time_series: enter extract_table_root
+2019-04-24 11:42:38,727 [INFO] time_series: enter extract_special
+2019-04-24 11:42:38,727 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,727 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,727 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,728 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,728 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,728 [INFO] time_series: enter extract_columns
+2019-04-24 11:42:38,729 [INFO] time_series: exit extract_main
+2019-04-24 11:42:38,729 [INFO] benchmarks: Benchmark - Function: extractTs , Time: 1.48 seconds
+2019-04-24 11:43:40,576 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:43:40,694 [DEBUG] matplotlib.font_manager: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-24 11:43:40,748 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:43:40,751 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:43:40,754 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:43:56,783 [INFO] directory: enter list_files
+2019-04-24 11:43:56,784 [INFO] directory: exit list_files
+2019-04-24 11:43:56,786 [INFO] directory: temp directory: /var/folders/xj/p7h9764x7cx0by8547l04rrr0000gn/T/tmpjgvrg629
+2019-04-24 11:43:56,786 [INFO] zips: enter unzip
+2019-04-24 11:43:56,943 [INFO] zips: exit unzip
+2019-04-24 11:43:57,131 [INFO] jsons: Read JSONLD successful: metadata.jsonld
+2019-04-24 11:43:57,131 [INFO] jsons: exit read_json_from_file
+2019-04-24 11:43:57,133 [INFO] jsons: enter idx_num_to_name
+2019-04-24 11:43:57,134 [INFO] jsons: enter import_data: paleo
+2019-04-24 11:43:57,134 [INFO] jsons: exit import_data: paleo
+2019-04-24 11:43:57,135 [INFO] jsons: enter import_data: chron
+2019-04-24 11:43:57,135 [INFO] jsons: enter import_model
+2019-04-24 11:43:57,135 [INFO] jsons: exit import_model: chron0model
+2019-04-24 11:43:57,136 [INFO] jsons: exit import_data: chron
+2019-04-24 11:43:57,136 [INFO] jsons: exit idx_num_to_name
+2019-04-24 11:43:57,136 [INFO] misc: enter remove_empty_doi
+2019-04-24 11:43:57,137 [INFO] misc: exit remove_empty_doi
+2019-04-24 11:43:57,138 [INFO] csvs: enter read_csvs
+2019-04-24 11:43:57,139 [INFO] directory: enter list_files
+2019-04-24 11:43:57,139 [INFO] directory: exit list_files
+2019-04-24 11:43:57,140 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,140 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0summary0.csv
+2019-04-24 11:43:57,142 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,142 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,142 [INFO] csvs: open file: MD982176.Stott.2004.paleo0measurement0.csv
+2019-04-24 11:43:57,144 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,144 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,144 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution8.csv
+2019-04-24 11:43:57,232 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,232 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,233 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution9.csv
+2019-04-24 11:43:57,326 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,326 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,326 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution1.csv
+2019-04-24 11:43:57,417 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,418 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,419 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution0.csv
+2019-04-24 11:43:57,511 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,512 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,512 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution2.csv
+2019-04-24 11:43:57,599 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,600 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,601 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution3.csv
+2019-04-24 11:43:57,687 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,688 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,688 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution7.csv
+2019-04-24 11:43:57,779 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,780 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,780 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution6.csv
+2019-04-24 11:43:57,875 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,875 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,876 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution11.csv
+2019-04-24 11:43:57,968 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:57,969 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:57,969 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution4.csv
+2019-04-24 11:43:58,056 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:58,057 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:58,058 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0ensemble0.csv
+2019-04-24 11:43:58,197 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:58,198 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:58,199 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution5.csv
+2019-04-24 11:43:58,289 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:58,290 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:58,290 [INFO] csvs: open file: MD982176.Stott.2004.chron0measurement0.csv
+2019-04-24 11:43:58,290 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:58,290 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:58,291 [INFO] csvs: open file: MD982176.Stott.2004.chron0model0distribution10.csv
+2019-04-24 11:43:58,384 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:58,385 [INFO] csvs: enter merge_csv_metadata
+2019-04-24 11:43:58,385 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:43:58,389 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:43:58,389 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:43:58,389 [INFO] inferred_data: get_inferred_data_table: Not calculating inferred data for variableName: ams number
+2019-04-24 11:43:58,390 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,390 [INFO] csvs: enter merge_csv_model
+2019-04-24 11:43:58,392 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,499 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,532 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,564 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,597 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,631 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,664 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,696 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,729 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,762 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,793 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,829 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,860 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:58,860 [INFO] csvs: exit merge_csv_model
+2019-04-24 11:43:58,861 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:43:58,861 [INFO] csvs: exit merge_csv_metadata
+2019-04-24 11:43:58,861 [INFO] csvs: enter get_csv_from_metadata
+2019-04-24 11:43:59,629 [INFO] csvs: enter get_csv_from_section: MD982176.Stott.2004.paleo
+2019-04-24 11:43:59,629 [INFO] csvs: exit get_csv_from_section: MD982176.Stott.2004.paleo
+2019-04-24 11:43:59,630 [INFO] csvs: enter get_csv_from_section: MD982176.Stott.2004.chron
+2019-04-24 11:43:59,630 [INFO] csvs: enter get_csv_from_model: MD982176.Stott.2004.chron0model
+2019-04-24 11:43:59,630 [INFO] csvs: exit get_csv_from_section: MD982176.Stott.2004.chron
+2019-04-24 11:43:59,631 [INFO] csvs: exit get_csv_from_metadata
+2019-04-24 11:43:59,634 [INFO] LiPD: lipd_read: record loaded: /Users/deborahkhider/Documents/GitHub/CKIDS/Data/MD982176.Stott.2004.lpd
+2019-04-24 11:43:59,642 [INFO] directory: temp directory: /var/folders/xj/p7h9764x7cx0by8547l04rrr0000gn/T/tmpsb7k22k0
+2019-04-24 11:43:59,642 [INFO] zips: enter unzip
+2019-04-24 11:43:59,644 [INFO] zips: exit unzip
+2019-04-24 11:43:59,728 [INFO] jsons: Read JSONLD successful: MD98-2170.Stott.2004.jsonld
+2019-04-24 11:43:59,728 [INFO] jsons: exit read_json_from_file
+2019-04-24 11:43:59,731 [INFO] jsons: enter idx_num_to_name
+2019-04-24 11:43:59,731 [INFO] jsons: enter import_data: paleo
+2019-04-24 11:43:59,732 [INFO] jsons: exit import_data: paleo
+2019-04-24 11:43:59,732 [INFO] jsons: enter import_data: chron
+2019-04-24 11:43:59,733 [INFO] jsons: exit import_data: chron
+2019-04-24 11:43:59,733 [INFO] jsons: exit idx_num_to_name
+2019-04-24 11:43:59,733 [INFO] misc: enter remove_empty_doi
+2019-04-24 11:43:59,734 [INFO] misc: exit remove_empty_doi
+2019-04-24 11:43:59,735 [INFO] csvs: enter read_csvs
+2019-04-24 11:43:59,735 [INFO] directory: enter list_files
+2019-04-24 11:43:59,736 [INFO] directory: exit list_files
+2019-04-24 11:43:59,736 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:59,736 [INFO] csvs: open file: MD98-2170.Stott.2004.Paleo1.measurementTable1.csv
+2019-04-24 11:43:59,737 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:59,737 [INFO] csvs: enter read_csv_from_file
+2019-04-24 11:43:59,737 [INFO] csvs: open file: MD98-2170.Stott.2004.Chron1.measurementTable1.csv
+2019-04-24 11:43:59,738 [INFO] csvs: exit read_csv_from_file
+2019-04-24 11:43:59,738 [INFO] csvs: enter merge_csv_metadata
+2019-04-24 11:43:59,738 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:43:59,741 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:59,742 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:43:59,742 [INFO] csvs: enter merge_csv_section
+2019-04-24 11:43:59,743 [INFO] inferred_data: get_inferred_data_table: Not calculating inferred data for variableName: labcode
+2019-04-24 11:43:59,743 [ERROR] inferred_data: fix_numeric_types: must be real number, not str
+2019-04-24 11:43:59,744 [INFO] csvs: exit merge_csv_section
+2019-04-24 11:43:59,744 [INFO] csvs: exit merge_csv_metadata
+2019-04-24 11:43:59,744 [INFO] csvs: enter get_csv_from_metadata
+2019-04-24 11:43:59,745 [INFO] csvs: enter get_csv_from_section: MD98-2170.Stott.2004.paleo
+2019-04-24 11:43:59,746 [INFO] csvs: exit get_csv_from_section: MD98-2170.Stott.2004.paleo
+2019-04-24 11:43:59,746 [INFO] csvs: enter get_csv_from_section: MD98-2170.Stott.2004.chron
+2019-04-24 11:43:59,746 [INFO] csvs: exit get_csv_from_section: MD98-2170.Stott.2004.chron
+2019-04-24 11:43:59,746 [INFO] csvs: exit get_csv_from_metadata
+2019-04-24 11:43:59,748 [INFO] LiPD: lipd_read: record loaded: /Users/deborahkhider/Documents/GitHub/CKIDS/Data/MD98-2170.Stott.2004.lpd
+2019-04-24 11:43:59,748 [INFO] benchmarks: Benchmark - Function: readLipd , Time: 2.96 seconds
+2019-04-24 11:44:17,989 [INFO] time_series: enter extract_main
+2019-04-24 11:44:17,989 [INFO] time_series: enter _extract_funding
+2019-04-24 11:44:17,990 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:44:17,990 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:44:17,990 [INFO] time_series: enter _extract_pub
+2019-04-24 11:44:17,991 [INFO] time_series: processing publication #: 0
+2019-04-24 11:44:17,991 [INFO] time_series: enter extract_authors
+2019-04-24 11:44:17,991 [INFO] time_series: enter extract_pc
+2019-04-24 11:44:17,991 [INFO] time_series: enter extract_table_root
+2019-04-24 11:44:17,992 [INFO] time_series: enter extract_special
+2019-04-24 11:44:17,992 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:17,993 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:17,994 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:17,994 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:17,995 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:17,995 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:17,996 [INFO] time_series: exit extract_main
+2019-04-24 11:44:18,003 [INFO] time_series: enter extract_main
+2019-04-24 11:44:18,003 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:44:18,003 [INFO] time_series: enter ts_extract_geo
+2019-04-24 11:44:18,004 [INFO] time_series: enter _extract_pub
+2019-04-24 11:44:18,004 [INFO] time_series: processing publication #: 0
+2019-04-24 11:44:18,004 [INFO] time_series: enter extract_authors
+2019-04-24 11:44:18,004 [INFO] time_series: enter extract_pc
+2019-04-24 11:44:18,005 [INFO] time_series: enter extract_table_root
+2019-04-24 11:44:18,005 [INFO] time_series: enter extract_special
+2019-04-24 11:44:18,005 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:18,005 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:18,006 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:18,006 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:18,006 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:18,007 [INFO] time_series: enter extract_columns
+2019-04-24 11:44:18,007 [INFO] time_series: exit extract_main
+2019-04-24 11:44:18,007 [INFO] benchmarks: Benchmark - Function: extractTs , Time: 0.8 seconds
+2019-04-24 11:45:40,182 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:45:40,257 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:45:40,260 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:45:40,263 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:52:50,910 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:52:50,942 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:52:50,945 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:52:50,948 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,062 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,062 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,066 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,067 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,071 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,076 [DEBUG] matplotlib.font_manager: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-24 11:54:24,090 [DEBUG] matplotlib.font_manager: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-24 11:54:24,107 [DEBUG] matplotlib.font_manager: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.399999999999999 to DejaVu Sans ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-24 11:54:24,113 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,139 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,184 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,185 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,186 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,187 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,187 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,223 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXGeneral:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXGeneral ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf') with score of 0.050000.
+2019-04-24 11:54:24,225 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXGeneral:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXGeneral ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf') with score of 0.050000.
+2019-04-24 11:54:24,227 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXGeneral:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to STIXGeneral ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf') with score of 0.000000.
+2019-04-24 11:54:24,230 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXNonUnicode:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXNonUnicode ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf') with score of 0.050000.
+2019-04-24 11:54:24,232 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXNonUnicode:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXNonUnicode ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf') with score of 0.050000.
+2019-04-24 11:54:24,232 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXNonUnicode:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to STIXNonUnicode ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf') with score of 0.000000.
+2019-04-24 11:54:24,235 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXSizeOneSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeOneSym ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf') with score of 0.050000.
+2019-04-24 11:54:24,238 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXSizeTwoSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeTwoSym ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf') with score of 0.050000.
+2019-04-24 11:54:24,241 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXSizeThreeSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeThreeSym ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf') with score of 0.050000.
+2019-04-24 11:54:24,243 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXSizeFourSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeFourSym ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf') with score of 0.050000.
+2019-04-24 11:54:24,245 [DEBUG] matplotlib.font_manager: findfont: Matching :family=STIXSizeFiveSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeFiveSym ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf') with score of 0.050000.
+2019-04-24 11:54:24,247 [DEBUG] matplotlib.font_manager: findfont: Matching :family=cmsy10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmsy10 ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf') with score of 0.050000.
+2019-04-24 11:54:24,249 [DEBUG] matplotlib.font_manager: findfont: Matching :family=cmr10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmr10 ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf') with score of 0.050000.
+2019-04-24 11:54:24,252 [DEBUG] matplotlib.font_manager: findfont: Matching :family=cmtt10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmtt10 ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf') with score of 0.050000.
+2019-04-24 11:54:24,254 [DEBUG] matplotlib.font_manager: findfont: Matching :family=cmmi10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmmi10 ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf') with score of 0.050000.
+2019-04-24 11:54:24,257 [DEBUG] matplotlib.font_manager: findfont: Matching :family=cmb10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmb10 ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf') with score of 0.050000.
+2019-04-24 11:54:24,259 [DEBUG] matplotlib.font_manager: findfont: Matching :family=cmss10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmss10 ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf') with score of 0.050000.
+2019-04-24 11:54:24,261 [DEBUG] matplotlib.font_manager: findfont: Matching :family=cmex10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmex10 ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf') with score of 0.050000.
+2019-04-24 11:54:24,264 [DEBUG] matplotlib.font_manager: findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-24 11:54:24,267 [DEBUG] matplotlib.font_manager: findfont: Matching :family=DejaVu Sans:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf') with score of 0.150000.
+2019-04-24 11:54:24,268 [DEBUG] matplotlib.font_manager: findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to DejaVu Sans ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf') with score of 0.000000.
+2019-04-24 11:54:24,271 [DEBUG] matplotlib.font_manager: findfont: Matching :family=DejaVu Sans Mono:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans Mono ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf') with score of 0.050000.
+2019-04-24 11:54:24,273 [DEBUG] matplotlib.font_manager: findfont: Matching :family=DejaVu Sans Display:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans Display ('/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf') with score of 0.050000.
+2019-04-24 11:54:24,379 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,380 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,381 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,381 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,387 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,387 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,388 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,388 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,439 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,440 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,441 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,441 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,493 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,516 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,531 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,533 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,533 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,535 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,535 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,538 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,538 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,540 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,540 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,547 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,548 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,548 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,550 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,550 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,552 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,553 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,554 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,554 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,563 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,563 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,564 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,564 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,567 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,567 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,569 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,569 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,575 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,576 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,577 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,577 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,579 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,580 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,581 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,581 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,609 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,609 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,611 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,611 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,613 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,614 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,615 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,615 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,622 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,622 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,623 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,623 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,626 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,626 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,628 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,628 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,640 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,654 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,668 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,670 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,670 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,671 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,671 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,674 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,674 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,675 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,676 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,682 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,683 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,684 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,685 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,685 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,687 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,688 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,689 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,690 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,699 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,699 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,701 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,701 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,703 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,703 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,705 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,705 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,711 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,712 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,713 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,713 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,716 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,716 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,717 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,717 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,729 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,754 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,775 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,784 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:24,785 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,785 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,787 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,787 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,816 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,816 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:24,818 [DEBUG] matplotlib.ticker: vmin 17836.318478681045 vmax 89.62096084517788
+2019-04-24 11:54:24,818 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:24,824 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,824 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,826 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,826 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:24,845 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,846 [DEBUG] matplotlib.ticker: ticklocs array([1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05])
+2019-04-24 11:54:24,847 [DEBUG] matplotlib.ticker: vmin 7.811102054257543 vmax 6109.753829518941
+2019-04-24 11:54:24,848 [DEBUG] matplotlib.ticker: ticklocs [0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0]
+2019-04-24 11:54:44,454 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,493 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,516 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,563 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,564 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,564 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,568 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,568 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,613 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,614 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,615 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,615 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,620 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,620 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,624 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,624 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,673 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,673 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,674 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,675 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,722 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,736 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,748 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,751 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,751 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,752 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,752 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,755 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,756 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,757 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,757 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,763 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,764 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,764 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,765 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,766 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,769 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,769 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,770 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,770 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,779 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,779 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,780 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,781 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,784 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,784 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,785 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,786 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,792 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,793 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,794 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,794 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,797 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,798 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,799 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,799 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,828 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,829 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,830 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,830 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,832 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,833 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,834 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,834 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,839 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,839 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,840 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,841 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,843 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,843 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,845 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,845 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,857 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,870 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,883 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,885 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,885 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,887 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,887 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,890 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,890 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,891 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,891 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,897 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,899 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,899 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,900 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,901 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,904 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,904 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,906 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,906 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,914 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,915 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,916 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,916 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,919 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,919 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,921 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:44,921 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,927 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,928 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,929 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,929 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,932 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,932 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:44,933 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:44,934 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:44,946 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,971 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:44,992 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:45,000 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-24 11:54:45,001 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:45,001 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:45,003 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:45,003 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:45,022 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:45,022 [DEBUG] matplotlib.ticker: ticklocs array([1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:45,023 [DEBUG] matplotlib.ticker: vmin 14250.341337402417 vmax 528.0709438340841
+2019-04-24 11:54:45,024 [DEBUG] matplotlib.ticker: ticklocs [20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:45,029 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:45,030 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:45,031 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:45,031 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-24 11:54:45,047 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:45,047 [DEBUG] matplotlib.ticker: ticklocs array([1.e+00, 1.e+01, 1.e+02, 1.e+03, 1.e+04, 1.e+05, 1.e+06])
+2019-04-24 11:54:45,048 [DEBUG] matplotlib.ticker: vmin 82.28132727251236 vmax 13801.839989782924
+2019-04-24 11:54:45,049 [DEBUG] matplotlib.ticker: ticklocs [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, 900.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 20000.0, 30000.0, 40000.0, 50000.0, 60000.0, 70000.0, 80000.0, 90000.0, 200000.0, 300000.0, 400000.0, 500000.0, 600000.0, 700000.0, 800000.0, 900000.0, 2000000.0, 3000000.0, 4000000.0, 5000000.0, 6000000.0, 7000000.0, 8000000.0, 9000000.0]
+2019-04-25 07:21:15,617 [INFO] csvs: enter get_csv_from_metadata
+2019-04-25 07:21:16,537 [INFO] csvs: enter get_csv_from_section: MD982176.Stott.2004.paleo
+2019-04-25 07:21:16,537 [INFO] csvs: exit get_csv_from_section: MD982176.Stott.2004.paleo
+2019-04-25 07:21:16,539 [INFO] csvs: enter get_csv_from_section: MD982176.Stott.2004.chron
+2019-04-25 07:21:16,540 [INFO] csvs: enter get_csv_from_model: MD982176.Stott.2004.chron0model
+2019-04-25 07:21:16,540 [INFO] csvs: exit get_csv_from_section: MD982176.Stott.2004.chron
+2019-04-25 07:21:16,541 [INFO] csvs: exit get_csv_from_metadata
+2019-04-25 07:21:17,669 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-25 07:21:18,096 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-25 07:21:18,221 [DEBUG] matplotlib.axes._base: update_title_pos
+2019-04-25 07:21:18,302 [DEBUG] matplotlib.axes._base: update_title_pos
